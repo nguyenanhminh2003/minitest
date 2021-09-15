@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<input id ="num1">
+<input id ="num2">
+<input type ="button" onclick="display()" value="click me">
+<p id="S"></p>
+<script>
+    function display(){
+        let num1 = document.getElementById("num1").value
+        let num2 = document.getElementById("num2").value
+        let S = num1*num2
+        document.getElementById("S").innerText = "A times B equals = " + S
+
+    }
+</script>
+</body>
+</html>
